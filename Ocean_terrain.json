@@ -4,12 +4,11 @@
     "id": "t_ocean_sh",
     "name": "shallow ocean",
     "description": "The water isn't too deep here.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is.",
-    "symbol": "~",
+    "symbol": "O",
     "color": "light_blue",
     "move_cost": 5,
     "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "FISHABLE", "SHALLOW_WATER" ],
-    "connects_to": "water",
-    "examine_action": "water_source"
+    "connects_to": "WATER"
   },
   {
     "type": "terrain",
@@ -17,27 +16,25 @@
     "name": "shallow ocean",
     "description": "The water isn't too deep here.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is.",
     "//": "for caverns and other natural underground formations.",
-    "symbol": "~",
+    "symbol": "O",
     "looks_like": "t_water_sh",
     "color": "light_blue",
     "move_cost": 5,
     "roof": "t_rock_roof",
     "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "FISHABLE", "INDOORS", "SHALLOW_WATER" ],
-    "connects_to": "water",
-    "examine_action": "water_source"
+    "connects_to": "WATER"
   },
   {
     "type": "terrain",
     "id": "t_ocean_dp",
     "name": "deep ocean",
     "description": "You're having trouble seeing the bottom through the deep water here.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is.",
-    "symbol": "~",
+    "symbol": "O",
     "looks_like": "t_water_sh",
     "color": "blue",
     "move_cost": 8,
     "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "FISHABLE" ],
-    "connects_to": "water",
-    "examine_action": "water_source"
+    "connects_to": "WATER"
   },
   {
     "type": "terrain",
@@ -45,14 +42,13 @@
     "name": "deep ocean",
     "//": "for caverns and other natural underground formations.",
     "description": "You're having trouble seeing the bottom through the deep water here.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is.",
-    "symbol": "~",
+    "symbol": "O",
     "looks_like": "t_water_dp",
     "color": "blue",
     "move_cost": 8,
     "roof": "t_rock_roof",
     "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "FISHABLE", "INDOORS" ],
-    "connects_to": "water",
-    "examine_action": "water_source"
+    "connects_to": "WATER"
   },
   {
     "type": "terrain",
@@ -60,12 +56,11 @@
     "name": "flowing shallow ocean",
     "description": "The streaming water isn't too deep here.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is, although probably safer than stagnant water.",
     "looks_like": "t_water_sh",
-    "symbol": "~",
+    "symbol": "O",
     "color": "light_blue",
     "move_cost": 6,
     "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "FISHABLE", "CURRENT", "SHALLOW_WATER" ],
-    "connects_to": "water",
-    "examine_action": "water_source"
+    "connects_to": "WATER"
   },
   {
     "type": "terrain",
@@ -73,12 +68,11 @@
     "name": "flowing deep ocean",
     "description": "The streaming water looks deep here.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is, although probably safer than stagnant water.",
     "looks_like": "t_water_dp",
-    "symbol": "~",
+    "symbol": "O",
     "color": "blue",
     "move_cost": 10,
     "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "FISHABLE", "CURRENT" ],
-    "connects_to": "water",
-    "examine_action": "water_source"
+    "connects_to": "WATER"
   },
   {
     "type": "terrain",
@@ -87,12 +81,11 @@
     "description": "The streaming water looks deep here.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is, although probably safer than stagnant water.",
     "looks_like": "t_water_dp",
     "//": "for caverns and other natural underground formations.",
-    "symbol": "~",
+    "symbol": "O",
     "color": "blue",
     "move_cost": 10,
     "roof": "t_rock_roof",
     "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "FISHABLE", "CURRENT", "INDOORS" ],
-    "connects_to": "water",
-    "examine_action": "water_source"
+    "connects_to": "WATER"
   }
 ]

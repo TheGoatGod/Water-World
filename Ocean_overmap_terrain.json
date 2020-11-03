@@ -6,9 +6,8 @@
     "name": "ocean",
     "sym": "O",
     "color": "blue",
-    "mondesntiy": 0,
     "see_cost": 1,
-    "flags": [ "RIVER", "NO_ROTATE" ]
+    "flags": [  "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -20,7 +19,7 @@
   {
     "type": "overmap_terrain",
     "id": "ocean_center",
-    "mapgen": [ { "method": "json", "name": "ocean_shore", "object": { "fill_ter": "t_ocean_dp" }, "city_distance": 3 } ],
+    "mapgen": [ { "method": "json", "name": "ocean_shore", "object": { "fill_ter": "t_ocean_dp" } } ],
     "copy-from": "generic_ocean"
   },
   {
@@ -28,7 +27,7 @@
     "id": "ocean_shore",
     "copy-from": "generic_ocean_shore",
     "extras": "ocean",
-    "mapgen": [ { "method": "json", "name": "ocean_shore", "object": { "fill_ter": "t_ocean_sh" }, "city_distance": 3 } ],
+    "mapgen": [ { "method": "json", "name": "ocean_shore", "object": { "fill_ter": "t_ocean_sh" } } ],
     "delete": { "flags": [ "NO_ROTATE" ] }
   }
 ]
