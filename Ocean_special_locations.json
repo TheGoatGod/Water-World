@@ -1,0 +1,12 @@
+[
+  {
+    "type": "overmap_location",
+    "id": "ocean",
+    "terrains": [ "ocean_center" ]
+  },
+  {
+    "type": "overmap_location",
+    "id": "ocean_shore",
+    "terrains": [ "ocean_shore" ]
+  }
+]

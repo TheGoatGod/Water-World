@@ -1,0 +1,15 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "default_oter": "ocean_center",
+    "default_groundcover": [ [ "t_region_groundcover", 1 ] ],
+    "region_terrain_and_furniture": {
+      "terrain": {
+        "t_region_groundcover": { "t_ocean_dp": 12, "t_ocean_sh": 2 }
+      }
+    },
+    "river_scale": 0.4,
+    "overmap_lake_settings": 0
+  }
+]
