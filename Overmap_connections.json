@@ -1,0 +1,11 @@
+[
+  {
+    "type": "overmap_connection",
+    "id": "ocean_river_connection",
+    "subtypes": [
+      { "terrain": "ocean_center", "locations": [ "water", "ocean_center" ] },
+      { "terrain": "ocean_center", "locations": [ "lake_surface", "ocean_center" ] },
+      { "terrain": "ocean_shore", "locations": [ "lake_shore", "ocean_shore" ] }
+    ]
+  }
+]
