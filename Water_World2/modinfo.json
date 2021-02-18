@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "waterworld",
+    "name": "Water World",
+    "authors": [ "TheGoatGod" ],
+    "description": "Changes the world to water world with small city islands.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

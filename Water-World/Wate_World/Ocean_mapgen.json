@@ -1,0 +1,26 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "ocean_surface" ],
+    "object": { "fill_ter": "t_water_dp" }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "ocean_shore" ],
+    "object": { "fill_ter": "t_water_sh" }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "ocean_submerged" ],
+    "object": { "fill_ter": "t_ocean_submerged" }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "ocean_bed" ],
+    "object": { "fill_ter": "t_ocean_bed" }
+  }
+]

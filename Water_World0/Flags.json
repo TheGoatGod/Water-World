@@ -1,0 +1,12 @@
+[
+  {
+    "id": "OCEAN",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "OCEAN_SHORE",
+    "context": [  ],
+    "type": "json_flag"
+  }
+]

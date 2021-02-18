@@ -1,0 +1,33 @@
+[
+  {
+    "type": "overmap_terrain",
+    "abstract": "generic_ocean",
+    "copy-from": "generic_water",
+    "name": "ocean",
+    "sym": "O",
+    "color": "blue",
+    "see_cost": 1,
+    "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "abstract": "generic_ocean_shore",
+    "copy-from": "generic_ocean",
+    "name": "ocean shore",
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ocean_center",
+    "mapgen": [ { "method": "json", "name": "ocean_shore", "object": { "fill_ter": "t_ocean_dp" } } ],
+    "copy-from": "generic_ocean"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ocean_shore",
+    "copy-from": "generic_ocean_shore",
+    "extras": "ocean",
+    "mapgen": [ { "method": "json", "name": "ocean_shore", "object": { "fill_ter": "t_ocean_sh" } } ],
+    "delete": { "flags": [ "NO_ROTATE" ] }
+  }
+]

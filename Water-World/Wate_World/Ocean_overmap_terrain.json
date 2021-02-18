@@ -1,0 +1,43 @@
+[
+  {
+    "type": "overmap_terrain",
+    "abstract": "generic_ocean",
+    "copy-from": "generic_water",
+    "name": "ocean",
+    "sym": "O",
+    "color": "blue",
+    "see_cost": 1,
+    "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "abstract": "generic_ocean_shore",
+    "copy-from": "generic_ocean",
+    "name": "ocean shore",
+    "color": "light_blue",
+    "extras": "ocean_shore"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ocean_surface",
+    "copy-from": "generic_ocean"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ocean_shore",
+    "copy-from": "generic_ocean_shore",
+    "delete": { "flags": [ "NO_ROTATE" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ocean_submerged",
+    "copy-from": "generic_ocean",
+    "name": "ocean (submerged)"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ocean_bed",
+    "copy-from": "generic_ocean",
+    "name": "ocean bed (submerged)"
+  }
+]
